@@ -71,7 +71,7 @@
         <div class="flex flex-col md:flex-row justify-between items-center">
           <div class="mb-4 md:mb-0">
             <p>&copy; {{ new Date().getFullYear() }} Craft Beer</p>
-            <p class="text-sm">Powered by <a href="https://www.openbrewerydb.org/" target="_blank" rel="noopener" class="underline hover:text-amber-200">OpenBreweryDB</a></p>
+            <p class="text-sm">Powered by <a href="https://www.openbrewerydb.org/" target="_blank" rel="noopener" class="font-medium underline hover:text-amber-100">OpenBreweryDB</a></p>
           </div>
           <div class="flex space-x-4">
             <a href="https://jpdiaz.dev" class="hover:text-amber-200">

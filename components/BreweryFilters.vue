@@ -4,7 +4,7 @@
       <h3 class="text-lg font-medium text-gray-900 dark:text-white mb-2 md:mb-0">Filter Breweries</h3>
       <button 
         @click="resetFilters" 
-        class="text-sm text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-300"
+        class="text-sm text-amber-700 dark:text-amber-300 hover:text-amber-900 dark:hover:text-amber-200 font-medium"
         aria-label="Reset all filters"
       >
         Reset Filters

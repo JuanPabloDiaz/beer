@@ -12,7 +12,7 @@
         :class="[
           'px-3 py-1 rounded-md',
           currentPage === 1 
-            ? 'text-gray-400 dark:text-gray-600 cursor-not-allowed' 
+            ? 'text-gray-500 dark:text-gray-500 cursor-not-allowed' 
             : 'text-gray-700 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-amber-900'
         ]"
       >
@@ -52,7 +52,7 @@
         :class="[
           'px-3 py-1 rounded-md',
           currentPage === totalPages 
-            ? 'text-gray-400 dark:text-gray-600 cursor-not-allowed' 
+            ? 'text-gray-500 dark:text-gray-500 cursor-not-allowed' 
             : 'text-gray-700 dark:text-gray-300 hover:bg-amber-100 dark:hover:bg-amber-900'
         ]"
       >

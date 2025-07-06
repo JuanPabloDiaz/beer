@@ -33,7 +33,7 @@
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-amber-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
           </svg>
-          <a :href="brewery.website_url" target="_blank" rel="noopener noreferrer" class="text-amber-600 dark:text-amber-400 hover:underline truncate max-w-[200px] inline-block">
+          <a :href="brewery.website_url" target="_blank" rel="noopener noreferrer" class="text-amber-700 dark:text-amber-300 hover:underline truncate max-w-[200px] inline-block font-medium">
             {{ formatWebsiteUrl(brewery.website_url) }}
           </a>
         </div>
