@@ -76,7 +76,20 @@ export const useBreweryApi = () => {
    */
   const getMetadata = async (): Promise<BreweryMetadata> => {
     try {
-      return await $fetch<BreweryMetadata>(`${apiBase}/breweries/meta`);
+      // Fetch the metadata from the v1 API
+      const response = await $fetch<any>(`${apiBase}/breweries/meta`);
+      
+      // Transform the v1 API response to match the expected BreweryMetadata interface
+      const transformedData: BreweryMetadata = {
+        total: response.total || 0,
+        count: response.total?.toString() || '0',
+        city_count: Object.keys(response.by_state || {}).length || 0,
+        state_count: Object.keys(response.by_state || {}).length || 0,
+        country_count: 1, // Default to 1 as the v1 API doesn't provide country count
+        type_count: response.by_type || {}
+      };
+      
+      return transformedData;
     } catch (error) {
       console.error('Error fetching brewery metadata:', error);
       throw error;
