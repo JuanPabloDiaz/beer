@@ -17,6 +17,9 @@ export default defineNuxtConfig({
   // App configuration
   app: {
     head: {
+      htmlAttrs: {
+        lang: 'en'
+      },
       title: 'Craft Beer',
       titleTemplate: '%s | Craft Beer',
       meta: [

@@ -5,6 +5,7 @@
       <button 
         @click="resetFilters" 
         class="text-sm text-amber-600 dark:text-amber-400 hover:text-amber-800 dark:hover:text-amber-300"
+        aria-label="Reset all filters"
       >
         Reset Filters
       </button>

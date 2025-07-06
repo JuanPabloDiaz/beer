@@ -8,6 +8,7 @@
       <button 
         @click="onPageChange(currentPage - 1)" 
         :disabled="currentPage === 1"
+        aria-label="Go to previous page"
         :class="[
           'px-3 py-1 rounded-md',
           currentPage === 1 
@@ -25,6 +26,8 @@
         <button
           v-if="page !== '...'"
           @click="onPageChange(page as number)"
+          :aria-label="`Go to page ${page}`"
+          :aria-current="page === currentPage ? 'page' : undefined"
           :class="[
             'px-3 py-1 rounded-md',
             page === currentPage
@@ -45,6 +48,7 @@
       <button 
         @click="onPageChange(currentPage + 1)" 
         :disabled="currentPage === totalPages"
+        aria-label="Go to next page"
         :class="[
           'px-3 py-1 rounded-md',
           currentPage === totalPages 
