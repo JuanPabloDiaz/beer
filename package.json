@@ -1,0 +1,30 @@
+{
+  "name": "beer",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "author": "Juan Diaz",
+  "license": "MIT",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "prettier --write .",
+    "clean": "rm -rf .output .data .nuxt .nitro .node_modules .yarnrc .yarnrc.yml && yarn install"
+  },
+  "dependencies": {
+    "nuxt": "^3.17.6",
+    "vue": "^3.5.17",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^3.19.2",
+    "@nuxtjs/tailwindcss": "^6.14.0",
+    "@types/node": "^24.0.10",
+    "@vue/test-utils": "^2.4.6",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}

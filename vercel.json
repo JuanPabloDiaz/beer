@@ -1,0 +1,14 @@
+{
+  "framework": "nuxt",
+  "buildCommand": "npm run build",
+  "outputDirectory": ".output/public",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "NITRO_PRESET": "vercel"
+  }
+}
