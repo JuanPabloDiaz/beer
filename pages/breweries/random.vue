@@ -1,7 +1,7 @@
 <template>
   <div>
     <Head>
-      <Title>Random Brewery | Craft Beer Explorer</Title>
+      <Title>Random Brewery | Craft Beer</Title>
       <Meta name="description" content="Discover a random brewery from the OpenBreweryDB database." />
     </Head>
 

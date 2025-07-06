@@ -17,8 +17,8 @@ export default defineNuxtConfig({
   // App configuration
   app: {
     head: {
-      title: 'Craft Beer Explorer',
-      titleTemplate: '%s | Craft Beer Explorer',
+      title: 'Craft Beer',
+      titleTemplate: '%s | Craft Beer',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },

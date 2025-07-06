@@ -1,7 +1,7 @@
 <template>
   <div>
     <Head>
-      <Title>API Documentation | Craft Beer Explorer</Title>
+      <Title>API Documentation | Craft Beer</Title>
       <Meta name="description" content="Documentation for the OpenBreweryDB API used in this application." />
     </Head>
 

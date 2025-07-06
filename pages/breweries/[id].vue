@@ -1,7 +1,7 @@
 <template>
   <div>
     <Head v-if="brewery">
-      <Title>{{ brewery.name }} | Craft Beer Explorer</Title>
+      <Title>{{ brewery.name }} | Craft Beer</Title>
       <Meta name="description" :content="`Details about ${brewery.name}, a ${brewery.brewery_type} brewery in ${brewery.city || 'N/A'}, ${brewery.state_province || brewery.state || 'N/A'}.`" />
     </Head>
 

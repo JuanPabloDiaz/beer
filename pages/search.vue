@@ -1,7 +1,7 @@
 <template>
   <div>
     <Head>
-      <Title>Search Breweries | Craft Beer Explorer</Title>
+      <Title>Search Breweries | Craft Beer</Title>
       <Meta name="description" content="Search for breweries by name, type, or location." />
     </Head>
 

@@ -1,13 +1,13 @@
 <template>
   <div>
     <Head>
-      <Title>Home | Craft Beer Explorer</Title>
+      <Title>Home | Craft Beer</Title>
       <Meta name="description" content="Explore craft breweries around the world with our modern brewery directory." />
     </Head>
 
     <section class="py-12 px-4 text-center bg-gradient-to-b from-amber-100 to-white dark:from-gray-800 dark:to-gray-900 rounded-xl shadow-inner-lg mb-10">
       <h1 class="text-4xl md:text-5xl font-bold text-amber-800 dark:text-amber-400 mb-4">
-        Craft Beer Explorer
+        Craft Beer
       </h1>
       <p class="text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto mb-8">
         Discover the world's finest craft breweries using the OpenBreweryDB API.

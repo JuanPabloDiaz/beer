@@ -1,8 +1,8 @@
-# Craft Beer Explorer
+# Craft Beer
 
 A premium, responsive web application built with Nuxt 3, TypeScript, and Tailwind CSS that integrates with the OpenBreweryDB API to showcase breweries around the world.
 
-![Craft Beer Explorer](https://via.placeholder.com/1200x630/amber/white?text=Craft+Beer+Explorer)
+![Craft Beer](https://via.placeholder.com/1200x630/amber/white?text=Craft+Beer)
 
 ## Features
 

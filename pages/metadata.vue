@@ -1,7 +1,7 @@
 <template>
   <div>
     <Head>
-      <Title>Brewery Metadata | Craft Beer Explorer</Title>
+      <Title>Brewery Metadata | Craft Beer</Title>
       <Meta name="description" content="View metadata and statistics about breweries in the OpenBreweryDB database." />
     </Head>
 

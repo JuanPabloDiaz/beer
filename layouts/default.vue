@@ -3,7 +3,7 @@
     <header class="bg-amber-500 dark:bg-amber-800 text-white shadow-md">
       <div class="container mx-auto px-4 py-4 flex justify-between items-center">
         <NuxtLink to="/" class="flex items-center space-x-2">
-          <span class="text-2xl font-bold">🍺 Craft Beer Explorer</span>
+          <span class="text-2xl font-bold">🍺 Craft Beer</span>
         </NuxtLink>
         
         <!-- Mobile menu button -->
@@ -61,7 +61,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-col md:flex-row justify-between items-center">
           <div class="mb-4 md:mb-0">
-            <p>&copy; {{ new Date().getFullYear() }} Craft Beer Explorer</p>
+            <p>&copy; {{ new Date().getFullYear() }} Craft Beer</p>
             <p class="text-sm">Powered by <a href="https://www.openbrewerydb.org/" target="_blank" rel="noopener" class="underline hover:text-amber-200">OpenBreweryDB</a></p>
           </div>
           <div class="flex space-x-4">
