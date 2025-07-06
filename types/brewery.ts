@@ -17,17 +17,17 @@ export interface Brewery {
   street?: string;
 }
 
-export type BreweryType = 
-  | 'micro'
-  | 'nano'
-  | 'regional'
-  | 'brewpub'
-  | 'large'
-  | 'planning'
-  | 'bar'
-  | 'contract'
-  | 'proprietor'
-  | 'closed';
+export type BreweryType =
+  | "micro"
+  | "nano"
+  | "regional"
+  | "brewpub"
+  | "large"
+  | "planning"
+  | "bar"
+  | "contract"
+  | "proprietor"
+  | "closed";
 
 export interface BrewerySearchParams {
   by_city?: string;
@@ -39,7 +39,7 @@ export interface BrewerySearchParams {
   by_dist?: string;
   page?: number;
   per_page?: number;
-  sort?: 'asc' | 'desc';
+  sort?: "asc" | "desc";
 }
 
 export interface BreweryMetadata {

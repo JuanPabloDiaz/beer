@@ -113,6 +113,7 @@ yarn test
 This project uses the OpenBreweryDB API. Full documentation is available at [https://www.openbrewerydb.org/](https://www.openbrewerydb.org/).
 
 Key endpoints used:
+
 - `/breweries` - List breweries
 - `/breweries/{id}` - Get a single brewery
 - `/breweries/random` - Get a random brewery

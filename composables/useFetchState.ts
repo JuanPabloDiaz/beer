@@ -1,5 +1,5 @@
-import { ref } from 'vue';
-import type { Ref } from 'vue';
+import { ref } from "vue";
+import type { Ref } from "vue";
 
 interface FetchState<T> {
   data: Ref<T | null>;
@@ -18,7 +18,7 @@ export function useFetchState<T, Args extends any[]>(
   const fetch = async (...args: Args): Promise<void> => {
     loading.value = true;
     error.value = null;
-    
+
     try {
       data.value = await fetchFn(...args);
     } catch (err) {
