@@ -92,6 +92,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import type { Brewery, AutocompleteResult } from '~/types/brewery';
+import SearchBar from '~/components/SearchBar.vue';
 
 const route = useRoute();
 const router = useRouter();

@@ -62,10 +62,10 @@
                 <div class="text-xs font-medium mb-1">{{ count }}</div>
                 <div 
                   class="w-10 rounded-t-md transition-all duration-500" 
-                  :class="getTypeColor(type)"
+                  :class="getTypeColor(type as string)"
                   :style="{ height: `${(count / maxTypeCount) * 100}%` }"
                 ></div>
-                <div class="text-xs mt-1 transform -rotate-45 origin-top-left whitespace-nowrap">{{ formatBreweryType(type) }}</div>
+                <div class="text-xs mt-1 transform -rotate-45 origin-top-left whitespace-nowrap">{{ formatBreweryType(type as string) }}</div>
               </div>
             </template>
           </div>

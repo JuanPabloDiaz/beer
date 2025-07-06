@@ -111,7 +111,7 @@ const defaultFilters: BrewerySearchParams = {
   by_city: '',
   by_state: '',
   by_country: '',
-  by_type: '',
+  by_type: undefined,
   sort: 'asc',
   per_page: 20,
   page: 1

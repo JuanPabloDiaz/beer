@@ -60,7 +60,8 @@
 
 <script setup lang="ts">
 import { ref, onMounted, watch } from 'vue';
-import type { Brewery, BrewerySearchParams } from '~/types/brewery';
+import type { Brewery, BrewerySearchParams, BreweryType } from '~/types/brewery';
+import BreweryFilters from '~/components/BreweryFilters.vue';
 
 const route = useRoute();
 const router = useRouter();
@@ -81,7 +82,7 @@ const initFiltersFromQuery = () => {
   
   if (filtersRef.value) {
     // Update filter values from URL query parameters
-    if (query.by_type) filtersRef.value.filters.by_type = query.by_type as string;
+    if (query.by_type) filtersRef.value.filters.by_type = query.by_type as BreweryType;
     if (query.by_city) filtersRef.value.filters.by_city = query.by_city as string;
     if (query.by_state) filtersRef.value.filters.by_state = query.by_state as string;
     if (query.by_country) filtersRef.value.filters.by_country = query.by_country as string;

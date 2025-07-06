@@ -24,7 +24,7 @@
       <template v-for="page in displayedPages" :key="page">
         <button
           v-if="page !== '...'"
-          @click="onPageChange(page)"
+          @click="onPageChange(page as number)"
           :class="[
             'px-3 py-1 rounded-md',
             page === currentPage
